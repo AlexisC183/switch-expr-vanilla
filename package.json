@@ -1,0 +1,9 @@
+{
+  "name": "switch-expr-vanilla",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Simple library to emulate a switch expression that admits arbitrary predicates",
+  "main": "switch-expr-vanilla.js",
+  "author": "AlexisC183",
+  "license": "MIT"
+}
