@@ -1,9 +1,18 @@
 {
   "name": "switch-expr-vanilla",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "type": "module",
   "description": "Simple library to emulate a switch expression that admits arbitrary predicates",
   "main": "switch-expr-vanilla.js",
   "author": "AlexisC183",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "javascript",
+    "switch"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AlexisC183/switch-expr-vanilla.git"
+  },
+  "homepage": "https://github.com/AlexisC183/switch-expr-vanilla#readme"
 }
