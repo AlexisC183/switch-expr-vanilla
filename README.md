@@ -2,7 +2,7 @@
 
 Simple usage example:
 
-```
+```js
 import Switch from 'switch-expr-vanilla';
 
 const NICK = 'John Doe';
@@ -19,7 +19,7 @@ console.log(
 
 It also supports lazy results:
 
-```
+```js
 import Switch from 'switch-expr-vanilla';
 
 const obj = undefined;
@@ -33,7 +33,7 @@ console.log(
 
 Lazy results are the way to throw errors:
 
-```
+```js
 import Switch from 'switch-expr-vanilla';
 
 const obj = 'foo';
@@ -47,7 +47,7 @@ console.log(
 
 You can use the input object from the switch head as part of the results:
 
-```
+```js
 import Switch from 'switch-expr-vanilla';
 
 const MEASUREMENT = 19;
@@ -62,7 +62,7 @@ console.log(
 
 Default value is optional:
 
-```
+```js
 import Switch from 'switch-expr-vanilla';
 
 const MEASUREMENT = 19;
@@ -79,7 +79,7 @@ console.log(
 
 There are situations where matching against constant values with arrow functions is overkill:
 
-```
+```js
 import Switch from 'switch-expr-vanilla';
 
 const USERNAME = 'alex';
@@ -95,7 +95,7 @@ console.log(
 
 However you can invoke the `equalTo()` function to improve conciseness:
 
-```
+```js
 import Switch from 'switch-expr-vanilla';
 import { equalTo } from 'switch-expr-vanilla';
 
@@ -112,7 +112,7 @@ console.log(
 
 You can use the `includedIn()` function to match against collections of values:
 
-```
+```js
 import Switch from 'switch-expr-vanilla';
 import { includedIn } from 'switch-expr-vanilla';
 
